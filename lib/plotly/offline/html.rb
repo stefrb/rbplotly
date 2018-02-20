@@ -5,7 +5,7 @@ module Plotly
   module Offline
     class HTML
       DEFAULT_CONFIG    = { linkText: 'Export to plot.ly', showLink: true }.freeze
-      PLOTLY_JS_CDN_URL = 'https://cdn.plot.ly/plotly-latest.min'.freeze
+      PLOTLY_JS_CDN_URL = 'https://cdn.plot.ly/plotly-latest.min.js'.freeze
       LOCAL_PLOTLY_JS   = File.read(File.expand_path('../plotly.min.js', __FILE__))
 
       # @param id [String]
